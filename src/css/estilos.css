@@ -1,0 +1,143 @@
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background-image: url(https://i.postimg.cc/y6GypJJH/background.jpg);
+}
+
+header {
+  padding-top: 20px;
+  padding-left: 35px;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: right;
+  color:white;
+  display: flex;
+}
+
+h1 {
+  padding-bottom: 16px;
+  margin: 15px;
+}
+
+header img {
+  width: 110px;
+  height: 90px;
+}
+
+.search-filter-container {
+  background-color: #0B3D91;
+  display: flex;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 20px;
+  margin-left: 35px;
+  margin-right: 47px;
+  color: white;
+}
+
+.search-bar, .filter-bar {
+  flex: 1;
+  padding: 10px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 10px;
+  max-width: 300px;
+  color:white
+}
+
+.search-bar label {
+  margin-right: none;
+}
+
+.search-bar input[type="text"] {
+  outline: none;
+  border-style: inset;
+  flex: 1;
+  border-right: none;
+  padding: 8px;
+  color: white;
+}
+
+#input {
+  background-color: #333;
+  display: block;
+  max-width: 100%;
+}
+
+.search-bar img {
+  background-color: #333;
+  width: 23px;
+  height: 21px;
+  display: flex;
+  padding-top: 6px;
+  padding-bottom: 5px;
+  border: 2px;
+  padding-right: 7px;
+  border-style: inset;
+  border-left: none;
+  border-right-color: #767676;
+  border-bottom-color: #767676;
+  border-top-color: #212121;
+}
+
+.filter-bar {
+  padding-bottom: 50px;
+  text-align: left;
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.astro-card-container {
+  flex: 1 0 300px;
+  color: rgb(59, 2, 112);
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.astro-card-information {
+  width: 300px;
+  height: 530px;
+  background-color: whitesmoke;
+  border-style:inset;
+  border-color: whitesmoke;
+  border-radius: 3px;
+  padding: 20px;
+  display: inline-block;
+  vertical-align: bottom;
+  margin: 5px
+}
+
+.astro-card-information img {
+  width: 280px;
+  height: 280px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+@media (max-width: 800px){
+  header img {
+    max-width: 80px;
+    max-height: 65px;
+  }
+
+  h1{
+    font-size: 1em;
+  }
+
+  .search-bar{
+    width: 250px;
+    height: 90px;
+    padding-right: 70px;
+  }
+}

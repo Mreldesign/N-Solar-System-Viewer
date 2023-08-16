@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Solar System Viewer</title>
+        <script type="text/javascript" src="src/js/script.js"></script>
+        <link rel="stylesheet" href="src/css/estilos.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="root">
+            <header>
+                <a href="https://postimg.cc/06rLDxQW" target="_blank">
+                <img src="https://i.postimg.cc/8CbN8zVS/NASA-logo.png" border="0" alt="NAÇA-logo"/></a>
+                <h1>Solar System Viewer</h1>
+            </header>
+            <section class="search-filter-container">
+                <div class="filter-bar">
+                    <label for="astro options" class="filter-title">
+                        <p>Filter by Type</p>
+                    </label>
+                    <select id="astro-options" autocomplete="off" class="astro-options" alt="choose an option">
+                        <option disabled value selected></option>
+                        <option>All</option>
+                        <option>Comets</option>
+                        <option>Moons</option>
+                        <option>Planets</option>
+                        <option>Stars</option>
+                    </select>
+                </div>
+                <div class="search-bar">
+                    <input id="input" type="text" placeholder="Search for an astro..." class="input">
+                    <label for="input">
+                        <img src="https://i.postimg.cc/Pq0G8Qsh/searchiconbetter.png" alt="search bar">
+                    </label>
+                </div>
+            </section>
+            <main>
+                <div class="astro-card-container">
+                 <div class="astro-card-information" data-type="Planets">
+                        <a href="https://postimages.org/" target="_blank"> 
+                        <img src="https://i.postimg.cc/nLyKW2wZ/astro-card-earth.jpg" border="0" alt="Earth planet image"/></a>
+                        <h2 class="astro-card-name">Earth</h2>
+                        <p>
+                            Diameter: 
+                            <span>12,742 km</span>
+                        </p>
+                        <p>
+                            Distance from Sun: 
+                            <span>149,598,262 km</span>
+                        </p>
+                        <p>
+                            Lenght of Year: 
+                            <span>1 Earth year</span>
+                        </p>
+                    </div>
+                  
+                  <div class="astro-card-information" data-type="Moons">
+                        <a href="https://postimg.cc/Jtjd7S04" target="_blank">
+                        <img src="https://i.postimg.cc/Vshyg8cM/astro-card-europa.jpg" border="0" alt="Europa moon image"/></a>
+                        <h2 class="astro-card-name">Europa</h2>
+                      
+                        <p>
+                            Near planet orbit: 
+                            <span>Jupiter (3,55 days)</span>
+                        </p>
+                        <p>
+                            Diameter: 
+                            <span>3,122 Km</span>
+                        </p>
+                        <p>
+                            Distance from near planet: 
+                            <span>671,100 km</span>
+                        </p>
+                    </div>
+                  
+                  <div class="astro-card-information" data-type="Comets">
+                       <a href="https://postimages.org/" target="_blank">
+                       <img src="https://i.postimg.cc/QCZhtJtS/astro-card-halleycomet.jpg" border="0" alt="Halley Comet image"/></a>
+                    <h2 class="astro-card-name">Halley's comet</h2>
+                        <p>
+                            Diameter: 
+                            <span>15 Km</span>
+                        </p>
+                        <p>
+                            Higher speed: 
+                            <span>70 km/s</span>
+                        </p>
+                        <p>
+                            Orbital period: 
+                            <span>79 Earth years</span>
+                        </p>
+                    </div>
+                    
+                    <div class="astro-card-information" data-type="Planets">
+                        <a href="https://postimages.org/" target="_blank">
+                        <img src="https://i.postimg.cc/6qPgM11h/astro-card-mars.jpg" border="0" alt="Mars planet image"/></a>
+                        <h2 class="astro-card-name">Mars</h2>
+                        <p>
+                            Diameter: 
+                            <span>6,794 Km</span>
+                        </p>
+                        <p>
+                            Distance from Sun: 
+                            <span>227,943,824 km</span>
+                        </p>
+                        <p>
+                            Lenght of Year: 
+                            <span>1.9 Earth years</span>
+                        </p>
+                    </div>
+
+                    <div class="astro-card-information" data-type="Moons">
+                        <a href="https://postimages.org/" target="_blank">
+                        <img src="https://i.postimg.cc/NjVpp9Cm/astro-card-moon.jpg" border="0" alt="Moon image"/></a>
+                        <h2 class="astro-card-name">Moon</h2>
+                      
+                        <p>
+                            Near planet orbit: 
+                            <span>Earth (27 days)</span>
+                        </p>
+                        <p>
+                            Diameter: 
+                            <span>3,474 Km</span>
+                        </p>
+                        <p>
+                            Distance from near planet: 
+                            <span>384.400 km</span>
+                        </p>
+                    </div>
+                    
+                    <div class="astro-card-information" data-type="Planets">
+                        <a href="https://postimages.org/" target="_blank">
+                        <img src="https://i.postimg.cc/wBK4yZC8/astro-card-saturn.jpg" border="0" alt="Saturn planet image"/></a>
+                        <h2 class="astro-card-name">Saturn</h2>
+                        <p>
+                            Diameter: 
+                            <span>116,464 km</span>
+                        </p>
+                        <p>
+                            Distance from Sun: 
+                            <span>1,426,666,422 km</span>
+                        </p>
+                        <p>
+                            Lenght of Year: 
+                            <span>29.5 Earth years</span>
+                        </p>
+                    </div>
+                  
+                   <div class="astro-card-information" data-type="Stars">
+                        <a href="https://postimg.cc/zbVQRdff" target="_blank">
+                        <img src="https://i.postimg.cc/d1BcppPG/astro-card-sun.jpg" border="0" alt="Sun star image"/></a>
+                        <h2 class="astro-card-name">Sun</h2>
+                        <p>
+                            Diameter: 
+                            <span>1.391.000 km</span>
+                        </p>
+                        <p>
+                            Temperature: 
+                            <span>15.000.000 °C</span>
+                        </p>
+                        <p>
+                            Composition:
+                            <span>Hydrogen and Helium</span>
+                        </p>
+                    </div>
+                  
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
