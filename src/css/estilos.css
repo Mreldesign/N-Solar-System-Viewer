@@ -159,10 +159,11 @@ main {
   }
 
   .search-bar{
-    width: 250px;
-    height: 90px;
+    max-width: 299px;
+    max-height: 100px;
     padding-right: 10px;
     padding-bottom: 1px;
+    padding-left: 1px;
   }
 
   .filter-bar{
@@ -178,5 +179,21 @@ main {
     padding-right: 15px;
     margin-right: 35px;
   }
-}
 
+  .astro-card-information{
+    width: 250px;
+    /*height: 442px;*/
+    height: 352px;
+    margin-block-start: 0.7em;
+    margin-block-end: 0.7em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 0.7em;
+  }
+
+  .astro-card-information img {
+    width: 233px;
+    height: 233px;
+  }
+
+}
