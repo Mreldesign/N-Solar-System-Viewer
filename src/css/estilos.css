@@ -151,6 +151,10 @@ main {
     max-height: 65px;
   }
 
+  header {
+    padding-bottom: 20px;
+  }
+
   h1{
     font-size: 0.6em;
     margin-left: 1px;
@@ -164,20 +168,26 @@ main {
     padding-right: 10px;
     padding-bottom: 1px;
     padding-left: 1px;
+    max-width: 200px;
+    /* align-items: center; */
+    /* align-content: center; */
+    /* display:  flex; */
+    /* display: flex; */
   }
 
   .filter-bar{
     padding-bottom: 20px;
     padding-top: 1px;
     font-size: 0.7em;
-    width: 200px;
+    max-width: 150px;
   }
 
   .search-filter-container{
     display: flex;
     flex-direction: column-reverse;
     padding-right: 15px;
-    margin-right: 35px;
+    margin-right: 25px;
+    margin-left: 25px;
   }
 
   .astro-card-information{
