@@ -27,7 +27,7 @@ header img {
 .search-filter-container {
   background-color: #0B3D91;
   display: flex;
-  border-radius: 5px;
+  border-radius: 2px;
   padding-left: 15px;
   padding-right: 20px;
   margin-left: 35px;
@@ -153,6 +153,10 @@ main {
 
   header {
     padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
   }
 
   h1{
@@ -160,6 +164,8 @@ main {
     margin-left: 1px;
     padding-bottom: 8px;
     padding-top: 8px;
+    /* display: flex; */
+    /* flex-direction: row; */
   }
 
   .search-bar{
@@ -178,27 +184,33 @@ main {
   .filter-bar{
     padding-bottom: 20px;
     padding-top: 1px;
+    padding-left: 7px;
+    padding-right: 10px;
     font-size: 0.7em;
     max-width: 150px;
   }
 
   .search-filter-container{
     display: flex;
-    flex-direction: column-reverse;
-    padding-right: 15px;
+    padding-right: 10px;
+    padding-left: 23px;
     margin-right: 25px;
     margin-left: 25px;
+    flex-direction: row-reverse;
+    margin: 0;
+    align-items: center;
   }
 
   .astro-card-information{
     width: 250px;
     /*height: 442px;*/
-    height: 352px;
+    height: 390px;
     margin-block-start: 0.7em;
     margin-block-end: 0.7em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-size: 0.7em;
+    /* padding: 20px; */
+    font-size: 0.8em;
   }
 
   .astro-card-information img {
