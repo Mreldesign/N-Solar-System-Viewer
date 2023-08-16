@@ -128,7 +128,7 @@ main {
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 848px){
   header img {
     max-width: 80px;
     max-height: 65px;
@@ -141,7 +141,42 @@ main {
   .search-bar{
     width: 250px;
     height: 90px;
-    padding-right: 70px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 600px){
+  header img {
+    max-width: 80px;
+    max-height: 65px;
+  }
+
+  h1{
+    font-size: 0.6em;
+    margin-left: 1px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+  }
+
+  .search-bar{
+    width: 250px;
+    height: 90px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+  }
+
+  .filter-bar{
+    padding-bottom: 20px;
+    padding-top: 1px;
+    font-size: 0.7em;
+    width: 200px;
+  }
+
+  .search-filter-container{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-right: 15px;
+    margin-right: 35px;
   }
 }
 
