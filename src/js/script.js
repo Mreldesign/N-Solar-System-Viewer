@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', function(event) {
+  console.log('A página está pronta!');
+});
+
 const astroCards = document.querySelectorAll('.astro-card-information');
 const filterSelect = document.querySelector('.astro-options');
 const searchInput = document.querySelector('.input');
