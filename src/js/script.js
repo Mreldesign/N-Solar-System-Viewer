@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function(event) {
-  console.log('A página está pronta!');
 });
 
 const astroCards = document.querySelectorAll('.astro-card-information');
