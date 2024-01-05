@@ -39,6 +39,38 @@ header img {
   color: white;
 }
 
+#blue-container2 {
+    background-color: #0B3D91;
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 2.7%;
+    margin-right: 2.7%;
+    margin-bottom: 1%;
+    color: white;
+}
+
+#back-button2 {
+  display: flex;
+  align-items: center;
+}
+
+#img-back2 {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    background-color: white;
+    padding: .52rem .6rem;
+    border-radius: .2rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 50ms;
+}
+
 .search-bar, .filter-bar {
   flex: 1;
   padding: 10px;
@@ -135,7 +167,7 @@ main {
 #main2 {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 1px;
     padding-left: 3%;
     padding-right: 3%;
     flex-wrap: wrap;
@@ -169,6 +201,11 @@ main {
   color: white;
 }
 
+#gallery {
+  float: center;
+}
+
+
 
 @media (max-width: 848px){
   header img {
@@ -190,7 +227,7 @@ main {
     text-align: center;
   }
 
-  #main2 img {
+  #main-img2 {
     width: 250px;
     height: 200px;
   }
@@ -199,6 +236,12 @@ main {
     margin-right: 0;
     margin-left: 0;
     float: none;
+  }
+
+  
+  #gallery-img2 {
+    width: 250px;
+    height: 200px;
   }
 
 }
@@ -288,6 +331,12 @@ main {
   }
 
   #figure2 {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+  }
+
+  #figure3 {
     margin-right: 0;
     margin-left: 0;
     float: none;
