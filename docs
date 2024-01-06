@@ -12,7 +12,7 @@
     <body>
         <div id="root">
             <header>
-                <a href="https://mreldesign.github.io/N-Solar-System-Viewer/" target="_blank">
+                <a href="https://mreldesign.github.io/N-Solar-System-Viewer/">
                 <img src="https://i.postimg.cc/8CbN8zVS/NASA-logo.png" border="0" alt="NAÇA-logo"/></a>
                 <h1>Solar System Viewer</h1>
             </header>
@@ -64,6 +64,79 @@
                             <img id="gallery-img2" src="https://i.postimg.cc/hG5qn5Vz/Screenshot-2.png" alt="Mars and their moons">
                             <figcaption id="figcaption2">
                                 <span>Phobos is the closest moon to its planet in the solar system</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Deimoss</title>
+        <link rel="stylesheet" href="src/css/estilos.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="root">
+            <header>
+                <a href="https://mreldesign.github.io/N-Solar-System-Viewer/">
+                <img src="https://i.postimg.cc/8CbN8zVS/NASA-logo.png" border="0" alt="NAÇA-logo"/></a>
+                <h1>Solar System Viewer</h1>
+            </header>
+
+            <section id="blue-container2">
+
+                <a id="back-button2" href="https://mreldesign.github.io/N-Solar-System-Viewer/">
+                    <button id="img-back2">
+                        <img src="src/img/icons/icons8-back-arrow-30.png">Back
+                    </button>
+                </a>
+
+            </section>
+            <main id="main2">
+                <div id="title2">
+                    <spam>Deimos</spam>
+                </div>
+                <div id="content2">
+                    <figure id="figure2">
+                        <img id="main-img2" src="https://i.postimg.cc/4xcH032j/a0745121a6b5449eb05e868664597986.png" alt="Spaceship in Deimos surface with Mars behide">
+                        <figcaption id="figcaption2">
+                            <span>Image made by Juno New Origins game simulating a Spaceship at the Deimos surface whit Mars behind</span>
+                        </figcaption>
+                    </figure>
+                    <h2 id="h20">
+                        Deimos is the smaller of Mars' two moons, with a diameter of only 12 kilometers. It orbits Mars at a distance of 23,460 kilometers, more than twice as far as Phobos. The surface is covered in craters, but they are shallower and less numerous than those on Phobos. The moon's surface is also covered in a fine layer of dust and debris.
+                        Scientists believe that Deimos is a captured asteroid, not a true Martian moon. Its composition is similar to that of carbonaceous chondrites, a type of meteorite that is thought to have formed in the outer solar system.<br>
+                        The orbit is much slower than that of Phobos. It takes 30.3 hours to orbit Mars, which means that a day on Deimos lasts 5.7 Earth days.
+                        Deimos' future is uncertain. Some scientists believe that it could eventually be pulled into Mars' gravity and crash into the planet. Others believe that it could continue to orbit Mars for billions of years.
+                        Despite its small size and uncertain future, Deimos is a fascinating object. It is a reminder of the ancient history of the solar system and the possibility of finding new resources in space.
+                    </h2>
+
+                    <div id="gallery">
+                        <figure id="figure3">
+                            <img id="gallery-img2" src="https://i.postimg.cc/4dQzS3yX/R.jpg" alt="Deimos image">
+                            <figcaption id="figcaption2">
+                                <span>Deimos image</span>
+                            </figcaption>
+                        </figure>
+                        <figure id="figure3">
+                            <img id="gallery-img2" src="https://i.postimg.cc/3N6WSMXK/4c9d6013a3d7448191109f5a9edda695.png" alt="Second image showing a spaceship in Deimos surface with Mars behide">
+                            <figcaption id="figcaption2">
+                                <span>Spaceship flying above 15km of Deimos's surface</span>
+                            </figcaption>
+                        </figure>
+                        <figure id="figure3">
+                            <img id="gallery-img2" src="https://i.postimg.cc/hG5qn5Vz/Screenshot-2.png" alt="Mars and their moons">
+                            <figcaption id="figcaption2">
+                                <span>Deimos is the closest moon to its planet in the solar system</span>
                             </figcaption>
                         </figure>
                     </div>
