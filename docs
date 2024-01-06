@@ -9,27 +9,64 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
     </head>
-    <body id="body2">
+    <body>
         <div id="root">
             <header>
                 <a href="https://mreldesign.github.io/N-Solar-System-Viewer/" target="_blank">
                 <img src="https://i.postimg.cc/8CbN8zVS/NASA-logo.png" border="0" alt="NAÇA-logo"/></a>
                 <h1>Solar System Viewer</h1>
             </header>
+
+            <section id="blue-container2">
+
+                <a id="back-button2" href="https://mreldesign.github.io/N-Solar-System-Viewer/">
+                    <button id="img-back2">
+                        <img src="src/img/icons/icons8-back-arrow-30.png">Back
+                    </button>
+                </a>
+
+            </section>
             <main id="main2">
                 <div id="title2">
                     <spam>Phobos</spam>
                 </div>
                 <div id="content2">
                     <figure id="figure2">
-                        <img src="https://i.postimg.cc/FzTX696Q/b82f54c45e8c402fadfe52859e318af4.png" alt="Spaceship in Phobos surface with Mars behide" id="astro">
+                        <img id="main-img2" src="https://i.postimg.cc/FzTX696Q/b82f54c45e8c402fadfe52859e318af4.png" alt="Spaceship in Phobos surface with Mars behide">
                         <figcaption id="figcaption2">
                             <span>Image made by Juno New Origins game simulating a Spaceship at the Phobos surface whit Mars behind</span>
                         </figcaption>
                     </figure>
                     <h2 id="h20">
-                        Phobos is the larger of the two heavily-cratered Martian moons and is dominated by three large craters. The largest of Phobos' craters, Stickney, was named after the wife of Asaph Hall, the astronomer who discovered the moons of Mars. Stickney crater is 10 km in diameter, which is almost half of the average diameter of Phobos! The crater is so large relative to the size of Phobos that the satellite probably came close to breaking up. Radiating away from Stickney are sets of parallel grooves or striations. These fractures undoubtably formed as a result of the impact that produced Stickney. Another interesting feature about Phobos is the duration of its orbit. Phobos revolves around Mars at an astounding rate. In fact, it revolves around Mars 3 times during one Martian day! As a result, Phobos appears to rise in the west, and set in the east!
+                        Phobos is the largest and closest moon of Mars. It is a small, irregularly shaped body with a diameter of about 22 kilometers. It orbits Mars at an altitude of about 6,000 kilometers, which is less than one-tenth the distance of the Moon from Earth.<br>
+                        The surface of Phobos is covered with craters and very porous, with a density of only about 1.8 grams per cubic centimeter. This suggests that this moon is made up of a mixture of rock and ice. Phobos is slowly spiraling inward towards Mars, and it is estimated that it will eventually crash into the planet in about 50 million years.<br>
+
+                        Phobos is named after the Greek god of fear.
+                        Phobos is the only moon in the solar system that orbits its planet within its Roche limit, which is the distance at which a satellite would be torn apart by the tidal forces of its planet.
+                        Phobos is thought to be a captured asteroid or comet.<br>
+                        Several missions to Phobos are planned or proposed. The European Space Agency's ExoMars rover, which is scheduled to launch in 2024, will include a lander that will touch down on Phobos. The Chinese space agency is also planning a mission to Phobos, which is scheduled to launch in 2028.
                     </h2>
+
+                    <div id="gallery">
+                        <figure id="figure3">
+                            <img id="gallery-img2" src="https://i.postimg.cc/CLWkx6Fn/astro-card-fobos.jpg" alt="phobos image">
+                            <figcaption id="figcaption2">
+                                <span>Phobos image captured by NASA's Mars Reconnaissance</span>
+                            </figcaption>
+                        </figure>
+                        <figure id="figure3">
+                            <img id="gallery-img2" src="https://i.postimg.cc/FHkRw3Mx/1268ea01e56c400e9e10e6ee980bcf90.png" alt="Second image showing a spaceship in Phobos surface with Mars behide">
+                            <figcaption id="figcaption2">
+                                <span>Spaceship flying above 30km of Phobos's surface</span>
+                            </figcaption>
+                        </figure>
+                        <figure id="figure3">
+                            <img id="gallery-img2" src="https://i.postimg.cc/hG5qn5Vz/Screenshot-2.png" alt="Mars and their moons">
+                            <figcaption id="figcaption2">
+                                <span>Phobos is the closest moon to its planet in the solar system</span>
+                            </figcaption>
+                        </figure>
+                    </div>
                 </div>
             </main>
         </div>
